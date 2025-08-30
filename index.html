@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bolton Bailey</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <style type="text/css">
+    /* body {
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+            font-family: 'Rokkitt', serif;
+              font-size: 150%;
+      } */
+
+    .purple {
+      color: rgb(124, 25, 124);
+    }
+
+    .purple a:hover {
+      color: rgb(124, 25, 124);
+      background-color: rgb(203, 153, 203);
+      text-decoration: underline;
+    }
+
+    .purple a:visited {
+      color: rgb(70, 29, 70);
+      text-decoration: underline;
+    }
+
+    .purple a {
+      color: rgb(203, 153, 203);
+      text-decoration: underline;
+    }
+
+    .blue {
+      color: rgb(22, 56, 101);
+    }
+
+    .blue a:hover {
+      color: rgb(22, 56, 101);
+      background-color: rgb(108, 149, 203);
+      text-decoration: underline;
+    }
+
+    .blue a:visited {
+      color: rgb(30, 39, 52);
+      text-decoration: underline;
+    }
+
+    .blue a {
+      color: rgb(62, 96, 141);
+      text-decoration: underline;
+    }
+
+    .red {
+      color: rgb(100, 31, 34);
+    }
+
+    .red a:hover {
+      color: rgb(100, 31, 34);
+      background-color: rgb(151, 85, 87);
+      text-decoration: underline;
+    }
+
+    .red a:visited {
+      color: rgb(60, 22, 23);
+      text-decoration: underline;
+    }
+
+    .red a {
+      color: rgb(191, 71, 75);
+      text-decoration: underline;
+    }
+
+    .orange {
+      color: rgb(147, 94, 15);
+    }
+
+    .orange a:hover {
+      color: rgb(147, 94, 15);
+      background-color: rgb(213, 171, 108);
+      text-decoration: underline;
+    }
+
+    .orange a:visited {
+      color: rgb(94, 69, 30);
+      text-decoration: underline;
+    }
+
+    .orange a {
+      color: rgb(208, 147, 57);
+      text-decoration: underline;
+    }
+
+    #page_wrapper {
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+    
+    body {
+      margin-bottom: 60px;
+    }
+    
+    header {
+        background-color: #fff;
+    }
+    
+    nav {
+        height: 48px;
+    }
+    
+    nav ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    nav li a {
+        color: purple;
+        font-size: 16px;
+        text-decoration: none;
+        
+    }
+    
+    nav li a:hover {
+        color: #dd5771;
+    }
+  </style>
+</head>
+<!--<body class="font-serif">-->
+<!--<body class="bg-yellow-lighter">-->
+
+<body class="bg-grey-lighter">
+
+  <div class="mx-auto px-2 min-h-screen min-h-full w-full md:w-3/4 lg:w-1/2 xl:w-1/2 bg-white shadow-md">
+
+    <header>
+    <div id="page_wrapper">
+    <nav>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./publications.html">Publications</a></li>
+        <li><a href="./teachingmentoring.html">Teaching and Mentoring</a></li>
+        <li><a href="./CV.pdf">CV</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+
+
+    <div class="flex purple text-xl">
+      <div class="w-64 h-auto border-b-2 border-black pt-8 px-2  font-bold">
+        Welcome to my website
+      </div>
+    </div>
+
+    <div class="flex purple">
+      <div class="flex-no-shrink w-4 h-auto border-r-2 border-black"></div>
+
+      <div class="w-auto h-auto border-l-8 border-purple-lighter pl-3 py-1 ">
+
+        <img src="boltonbailey2024.png" alt="Imagine a picture of me" width="250" height="300" float="left">
+
+        <p class="border-l-4 border-purple-light pl-2 my-2">
+          I am Bolton Bailey, this is my website (source <a href="https://github.com/BoltonBailey/boltonbailey.github.io">here</a>).
+        </p>
+        <p class="border-l-4 border-purple-light pl-2 my-2">
+          Here are some links to profiles / contact avenues:
+          <!-- Thanks to Claude for these SVGs: https://claude.ai/chat/45942427-49de-4835-9b69-94fb6aebfd5b -->
+           <!-- TODO: Add Manifold? Bluesky? -->
+          <div style="display: flex; gap: 10px;">
+            <a href="https://github.com/BoltonBailey" target="_blank" rel="noopener noreferrer">
+              <svg height="32" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" version="1.1" width="32" data-view-component="true">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+              </svg>
+            </a>
+            <a href="mailto:boltonb2@illinois.edu">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="https://twitter.com/fogofchess" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/bolton-bailey-885214106/" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="https://stackoverflow.com/users/3854633/bolton-bailey" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/@fogofchess" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
+            <a href="https://scholar.google.com/citations?user=peGyOTwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                <path d="M10 18h4v-2h-4v2zm0-3h4v-2h-4v2zm0-3h4v-2h-4v2z"/>
+              </svg>
+            </a>
+            <a href="https://thequantummilkman.substack.com/" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+              </svg>
+            </a>
+            <a href="https://orcid.org/0009-0008-5529-6685" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.203 2.584 5.203 5.022 0 2.65-1.791 5.019-5.203 5.019h-3.9V7.416zm1.444 1.303v7.444h2.228c3.194 0 3.972-2.131 3.972-3.722 0-2.584-1.778-3.722-3.972-3.722h-2.228z"/>
+              </svg>
+            </a>
+            <a href="https://www.twitch.tv/fogofchess" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714Z"/>
+              </svg>
+            </a>
+            <a href="https://leanprover.zulipchat.com/#user/282271" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256" fill="currentColor">
+                <path d="M128,0 C198.692448,0 256,57.307552 256,128 C256,198.692448 198.692448,256 128,256 C57.307552,256 0,198.692448 0,128 C0,57.307552 57.307552,0 128,0 Z M121.679533,118.222163 L75.7877336,159.200897 C71.0603547,162.920702 67.9584879,169.060511 67.9584879,175.967416 C67.9584879,187.245548 76.232162,196.475047 86.3444303,196.475047 L172.590938,196.475047 C182.703207,196.475047 190.976881,187.245548 190.976881,175.967416 C190.976881,164.68624 182.703207,155.459784 172.590938,155.459784 L107.299534,155.459784 C106.331533,155.459784 105.719683,154.300009 106.191507,153.356359 L123.024994,119.652857 C123.639888,118.669635 122.531861,117.491595 121.679533,118.222163 Z M172.590938,59.3627915 L86.3444303,59.3627915 C76.232162,59.3627915 67.9584879,68.58925 67.9584879,79.870426 C67.9584879,91.1485579 76.232162,100.378058 86.3444303,100.378058 L86.3444303,100.378058 L151.635834,100.378058 C152.603836,100.378058 153.215686,101.537833 152.743861,102.481482 L152.743861,102.481482 L135.910374,136.184985 C135.29548,137.168207 136.403507,138.346246 137.255836,137.615679 L137.255836,137.615679 L183.147635,96.6308563 C187.875014,92.9080074 190.976881,86.7712425 190.976881,79.8643379 C190.976881,68.586206 182.703207,59.3567064 172.590938,59.3627915 L172.590938,59.3627915 Z"/>
+              </svg>
+            </a>
+          </div>
+        </p>
+
+        <p class="border-l-4 border-purple-light pl-2 my-2">
+          After graduating from <a href="https://cs.illinois.edu/">UIUC</a>, 
+          where I worked with <a href="http://soc1024.ece.illinois.edu/">Andrew Miller's</a> <a href="https://decentralize.ece.illinois.edu/">Decentralized Systems Lab</a>, 
+          I am now working at <a href="https://pi2.network/">Pi Squared</a> as a Proof Engineer.
+        </p>
+
+        <p class="border-l-4 border-purple-light pl-2 my-2">
+          I prove things and write code. My main interests are in formal verification and cryptographic proof systems. A long-term life goal of mine is to integrate these two technologies to let each inherit the strengths of the other. Probably the best page to get a flavor of this is my <a href="https://github.com/BoltonBailey/formal-snarks-project">Formal SNARKs project</a> on GitHub. This project comes out of my Ph.D. work, and its main content is a formalization of the Groth '16 SNARK in Lean.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex orange text-xl">
+      <div class="w-64 h-auto border-b-2 border-black pt-8 px-2  font-bold">
+        Selected Work
+      </div>
+    </div>
+
+    <div class="flex orange">
+      <div class="flex-no-shrink w-4 h-auto border-r-2 border-black"></div>
+        <div class="w-auto h-auto border-l-8 border-indigo-lighter pl-3 py-1 ">
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>51% Attack via Difficulty Increase with a Small Quantum Miner </strong> (Myself and <a href="https://orsattath.wordpress.com/about/">Or Sattath</a>)
+              (<a href="https://arxiv.org/abs/2403.08023">arXiv</a>) 
+          </p>  
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>Formalizing Soundness Proofs of SNARKs </strong> (Myself and  <a href="http://soc1024.ece.illinois.edu/">Andrew Miller</a>)
+              (<a href="https://github.com/BoltonBailey/formal_baby_snark">code</a>) 
+              (<a href="https://www.youtube.com/watch?v=YcWQMBNJbdM">video</a>) 
+          </p>          
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>General Partially Fair Multi-Party Computation with VDFs </strong> (Myself,  <a href="http://soc1024.ece.illinois.edu/">Andrew Miller</a>, and <a href="https://orsattath.wordpress.com/about/">Or Sattath</a>)
+              (<a href="https://eprint.iacr.org/2022/1318">ePrint</a>) 
+          </p>          
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>Merkle Trees Optimized for Stateless Clients in Bitcoin</strong> (Myself and  <a href="https://www.linkedin.com/in/surya-sankagiri/">Surya Sankagiri</a>)
+              <a href="http://proceedings.mlr.press/v97/chen19h.html">WTSC '21</a>.
+              (<a href="https://eprint.iacr.org/2021/340">ePrint</a>)
+              (<a href="https://www.youtube.com/watch?v=HEKtDILPeaI">video</a>) 
+          </p>
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein
+              Minimization</strong> (<a href="https://www.ideals.illinois.edu/bitstream/handle/2142/104932/CHEN-THESIS-2019.pdf?sequence=1&isAllowed=y">Yucheng Chen</a>, <a href="http://mjt.web.engr.illinois.edu/">Matus Telgarsky</a>, <a href="http://chaozhang.org/">Chao Zhang</a>, Myself, <a href="https://www.cs.columbia.edu/~djhsu/">Daniel Hsu</a>, <a href="https://jianpeng.web.engr.illinois.edu/">Jian Peng</a>)
+            <a href="http://proceedings.mlr.press/v97/chen19h.html">ICML 2019</a>.
+            (<a href="https://arxiv.org/abs/1906.03471">arXiv</a>)
+          </p>
+          <p class="border-l-4 border-indigo-light pl-2 my-2">
+            <strong>Size-Noise Tradeoffs in Generative Networks</strong> (Myself and <a href="http://mjt.web.engr.illinois.edu/">Matus Telgarsky</a>) <a
+              href="https://nips.cc/Conferences/2018/Schedule?showEvent=12564">NeurIPS 2018 Spotlight</a>.
+            (<a href="https://arxiv.org/abs/1810.11158">arXiv</a>)
+            (<a
+              href="https://neurips.cc/media/Slides/nips/2018/220cd(04-10-05)-04-10-25-12564-Size-Noise_Trad.pdf">slides</a>)
+            (<a href="https://www.videoken.com/embed/1FsBeeO_5hY?tocitem=19">video</a>)
+          </p>
+          <p> See also: <a href="https://scholar.google.com/citations?user=peGyOTwAAAAJ&hl=en">My Google Scholar profile.</a> </p>
+        </div>
+    </div>
+
+
+    <div class="flex blue text-xl">
+      <div class="w-64 h-auto border-b-2 border-black pt-8 px-2  font-bold">
+        Timeline
+      </div>
+    </div>
+
+    <div class="flex blue">
+      <div class="flex-no-shrink w-4 h-auto border-r-2 border-black"></div>
+      <div class="w-auto h-auto border-l-8 border-indigo-lighter pl-3 py-1 ">
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          In 2024, I graduated from <a href="https://cs.illinois.edu/">UIUC</a> with a Ph.D. in Computer Science. I am now working at <a href="https://pi2.network/">Pi Squared</a> as a Proof Engineer.
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          During the Summer and Fall of 2022, I was a Software Engineer at <a href="https://www.risczero.com/">RISC Zero</a>, where I worked on a formalization of their <a href="https://github.com/risc0/risc0">zkVM for RISC-V</a>.
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          I have a longstanding project on <a href="https://github.com/BoltonBailey/formal_baby_snark">formalizing SNARKS</a> using the <a href="https://github.com/leanprover-community/mathlib">Lean mathlib</a>.
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          During Summer and Fall of 2020 my collaborator Surya and I worked on a <a href="https://github.com/surya-sankagiri/utreexo">network-efficient accumulator for Bitcoin</a>. Our work was accepted at <a href="https://fc21.ifca.ai/wtsc/">WTSC '21</a>. 
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          During Fall of 2019, I took Prof. David Forsyth's <strong><a
+              href="http://luthuli.cs.uiuc.edu/~daf/courses/MAAV-2019/598-2019-home.html">course on
+              autonomous vehicles</a></strong>. Part of my project for the class was a lidar-based particle filter for
+          tracking the location of a Gem e2 autonomous car. I made a GIF of it which you can see below.
+          <img src="movie_pfilter.gif" alt="Imagine a picture of me" width="250" height="300" float="left">
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          During Summer of 2019, I was a visit the <strong><a href="https://simons.berkeley.edu/programs/dl2019">Simons
+              Institute</a></strong>. I presented in the Robustness reading group on <a
+            href="presentation.pdf">poisoning</a>. I also worked on some problems, but I <a href="rnnproblem.html">was not able to solve them</a>.
+        </p>
+        <p class="border-l-4 border-indigo-light pl-2 my-2">
+          In 2019, I received a <strong>NSF Graduate Research Fellowship</strong>.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex red text-xl">
+      <div class="w-64 h-auto border-b-2 border-black pt-8 px-2  font-bold">
+        Teaching Assistantships
+      </div>
+    </div>
+
+    <div class="flex red">
+      <div class="flex-no-shrink w-4 h-auto border-r-2 border-black"></div>
+      <div class="w-auto h-auto border-l-8 border-red-lighter pl-3 py-1 ">
+        <p class="border-l-4 border-red-light pl-2 my-2">
+          Most recently, I am a TA for <a href="https://courses.grainger.illinois.edu/cs598dh/sp2024/">David Heath's CS 598 course on Secure Computation</a>. Previously, I was a TA for the <a href="https://courses.engr.illinois.edu/ece543/sp2019/">spring 2019 Statistical Learning Theory (ECE 543)</a> class.
+        </p>
+        <p class="border-l-4 border-red-light pl-2 my-2">
+          <p class="border-l-4 border-red-light pl-2 my-2">
+            <a href="./teachingmentoring.html">Read more about my pedagogy here</a>
+          </p>
+        </p>
+      </div>
+    </div>
+    <br>
+    <div>Last updated January 2025</div>
+
+  </div>
+
+</body>
+
+</html>
